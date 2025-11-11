@@ -18,13 +18,13 @@
 ## 🧱 Tech Stack
 
 **Frontend**:  
-- [React](https://reactjs.org/) with [TypeScript](https://www.typescriptlang.org/)
+- React with TypeScript
 - Additional dependencies:
   - React Router for TSX navigation
-  - Other common React libraries (e.g., Axios, Redux, etc. as needed)
+  - Other common React libraries (Axios, Redux)
 
 **Backend**:  
-- [Java Spring Boot](https://spring.io/projects/spring-boot) – for robust REST APIs and backend logic
+- Java Spring Boot – for robust REST APIs and backend logic
 
 **Database**:  
 - PostgreSQL running in Docker for an isolated, reproducible environment
@@ -32,20 +32,3 @@
 **Additional Tools**:  
 - Google Maps API – for mapping courts for every sport
 - SMTP or Email Service Integration – to send registration confirmation emails
-
----
-
-## 🐳 Local Setup
-
-### Prerequisites
-- Node.js (v14+ recommended)
-- Docker & Docker Compose
-- Java 17+ and Maven
-
-### Steps
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/SerbanTudor-Fechete/PolihackV17Squadfit.git
-   cd squadfit
